@@ -35,7 +35,7 @@ function CandySpecial({header, image, cost, candyID}) {
 
     if(isLoading){
         return(
-            <img src={loading}/>
+            <img src={loading} alt="Loading"/>
         )
     } else 
     {
