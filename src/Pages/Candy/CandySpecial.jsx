@@ -10,8 +10,8 @@ function CandySpecial({header, image, cost, candyID}) {
     const [isLoading, setIsLoading] = useState(false);
     const [redirectToNew, setRedirect] = useState(0);
     
-    const clientID = "AezRs31DI2zXFA6GfN8aKz5YfssItd4jJZ39DouREOQ1X8ml64ZNuhG-mlybKo5cKEdCrEabfABYlCsm";
-
+    //const clientID = "AezRs31DI2zXFA6GfN8aKz5YfssItd4jJZ39DouREOQ1X8ml64ZNuhG-mlybKo5cKEdCrEabfABYlCsm";
+    const clientID = "ARN6jFBUODiFsmleeCBVahDWBjvC6hLLA6RVK5wnKxFU08rWFbmBes54HlnKQ66w_IMMGQxlqq5a1CDj";
     const onSuccess = (details, data)=>{
         //alert("Transaction Completed by " + details.payer.name.given_name);
         setIsLoading(true);
